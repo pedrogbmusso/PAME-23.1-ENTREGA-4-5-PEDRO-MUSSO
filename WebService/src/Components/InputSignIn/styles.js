@@ -11,11 +11,13 @@ export const Inputin = styled.input`
     padding: 14px  0px 14px 100px;
     border: 4px solid;
     border-color: ${Colors.Cinza};
-    background-color: #0000;
+    background-color: ${Colors.Branco};
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
     &::placeholder{
         color: ${Colors.Cinza};
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-weight: bold;
     }
     

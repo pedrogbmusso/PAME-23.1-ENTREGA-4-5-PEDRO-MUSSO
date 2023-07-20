@@ -17,6 +17,7 @@ export const Buttom = styled.button`
     text-align: center;
     margin-right: 2vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
 `
 
 export const Tag = styled.h1`

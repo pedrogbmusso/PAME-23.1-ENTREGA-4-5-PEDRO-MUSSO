@@ -6,25 +6,25 @@ import LoginPagina from '../../Components/LoginPagina'
 import { useNavigate } from 'react-router-dom'
 
 export default function SignIn(){
-    const navegar = useNavigate();
+    const navigate = useNavigate();
     const [email,setEmail] = useState('');
     const [senha,setSenha] = useState('');
 
-    const client = {email : 'Client@email.com' , senha : 'Client'};
+    const client = {email: 'Client@email.com' , senha: 'Client'};
 
-    const admin = {email : 'Admin@email.com', senha : 'Admin'};
+    const admin = {email: 'Admin@email.com', senha: 'Admin'};
 
     function LogIn(){
         if (client.email === email && client.senha === senha){
-            navegar('/HomeClient');
+            navigate('/HomeClient');
             console.log('Cliente logado com sucesso');
         }
 
         if (admin.email === email && admin.senha === senha){
-            navegar('/HomeAdmin');
+            navigate('/HomeAdmin');
             console.log('Admnistrador logado com sucesso');
         } else {
-            console.log('Nao foi possivel o login')
+            console.log('Nao foi possivel o login');
         }
     }
 

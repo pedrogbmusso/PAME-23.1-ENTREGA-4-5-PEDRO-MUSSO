@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route} from "react-router-dom"
+import { Route, Routes} from "react-router-dom"
 import Login from "../Pages/Login"
 import HomeAdmin from "../Pages/HomeAdmin"
 import HomeClient from "../Pages/HomeClient"

@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Rotas/>
-      <GlobalStles/>
+      <GlobalStles></GlobalStles>
     </>
   );
 }

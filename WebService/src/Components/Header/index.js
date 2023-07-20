@@ -9,7 +9,7 @@ export default function Header(){
 
     return (
         <Cabecalho>
-            <Titulo></Titulo>
+            <Titulo>Nome da Empresa</Titulo>
             <EspacoBotoes>{botoes.map((item, index)=>(<Buttons key = {index} name = {item.name} link = {item.link}></Buttons>))}</EspacoBotoes>
         </Cabecalho>
     )
